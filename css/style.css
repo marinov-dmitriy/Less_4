@@ -116,21 +116,21 @@ h2{
 
 .twp-banana-eng {
 	font-family: 'Lato-Latin';
-	font-weight: '400';
+	font-weight: 400;
 }
 .frp-banana-eng {
 	font-family: 'Larrseit-Latin';
-	font-weight: '700';
+	font-weight: 700;
 }
 
 
 .onp-banana-ru, 
 .thp-banana-ru{
 	font-family: 'Larrseit';
-	font-weight: '400';
+	font-weight: 400;
 }
 .twp-banana-ru, 
 .fvp-banana-ru{
 	font-family: 'Lato';
-	font-weight: '700';
+	font-weight: 700;
 }
