@@ -1,0 +1,136 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:900);
+
+@font-face {
+	font-family: 'Larrseit-Latin';
+	src: url(../fonts/Larsseit-BoldItalic.woff2) format(woff2), 
+	url(../fonts/Larsseit-BoldItalic.woff) format(woff);
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Larrseit';
+	src: url(../fonts/Larsseit-Regular.woff2) format(woff2), 
+	url(../fonts/Larsseit-Regular.woff) format(woff);
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Lato-Latin';
+	src: url(../fonts/LatoLatin-HeavyItalic.woff2) format(woff2), url(../fonts/LatoLatin-HeavyItalic.woff) format(woff);
+	font-display: swap;
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Lato';
+	src: url(../fonts/latobold.woff2) format(woff2), url(../fonts/latobold.woff) format(woff);
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+
+/* Обнуление */
+*,
+*::after,
+*::before{
+   margin: 0;
+   padding: 0;
+   border: none;
+   box-sizing: border-box;
+}
+li{
+   list-style: none;
+}
+a{
+   color: inherit;
+}
+a:link,
+a:visited{
+   text-decoration: none;
+}
+a:hover{
+   text-decoration: none;
+}
+img{
+   vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   font-weight: inherit;
+   font-size: inherit;
+}
+input,
+button,
+textarea{
+   font-weight: inherit;
+   font-size: inherit;
+}
+button{
+   cursor: pointer;
+   color: inherit;
+   background: inherit;
+}
+body{
+   line-height: 1;
+	font-family: 'Roboto';
+}
+
+/* Конец обнуления */
+
+body{
+	color: gray;
+	font-family: 'Roboto';
+	font-weight: 900;
+}
+
+.eng-peace p{
+	color: rgb(42, 150, 0);
+}
+
+.rus-peace p{
+	color: rgb(0, 134, 187);
+}
+
+h2{
+	color: red;
+}
+
+.mt-header,
+.footer{
+	color: rgb(23, 1, 223);
+}
+
+.footer-href{
+	color: rgb(255, 0, 242);
+}
+
+
+.twp-banana-eng {
+	font-family: 'Lato-Latin';
+	font-weight: '400';
+}
+.frp-banana-eng {
+	font-family: 'Larrseit-Latin';
+	font-weight: '700';
+}
+
+
+.onp-banana-ru, 
+.thp-banana-ru{
+	font-family: 'Larrseit';
+	font-weight: '400';
+}
+.twp-banana-ru, 
+.fvp-banana-ru{
+	font-family: 'Lato';
+	font-weight: '700';
+}
